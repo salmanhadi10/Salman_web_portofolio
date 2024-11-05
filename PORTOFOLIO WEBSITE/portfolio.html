@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salman Hadi's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Sticky Navigation Bar -->
+    <header class="navbar">
+        <nav>
+            <ul>
+                <li><a href="#about.html">About</a></li>
+                <li><a href="#skills.html">Skills</a></li>
+                <li><a href="#experience.html">Experience</a></li>
+                <li><a href="#projects.html">Projects</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <div class="hero-section">
+        <div class="overlay"></div>
+        <h1 class="title">Salman Hadi</h1>
+        <p class="subtitle">Informatics Engineer & Aspiring Developer</p>
+        <a href="#contact" class="cta-btn">Contact Me</a>
+    </div>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>Hi, I'm Salman Hadi, a passionate Informatics Engineering student from Politeknik Harapan Bersama, Tegal. With skills in web development, coding, and more, I'm excited to bring creative ideas to life.</p>
+        <div class="about-details">
+            <h3>Education</h3>
+            <ul>
+                <li><strong>Bachelor of Informatics Engineering</strong> - Politeknik Harapan Bersama, Tegal</li>
+                <li><strong>High School</strong> - Tegal Science High School</li>
+            </ul>
+            <h3>Passions</h3>
+            <p>I love exploring new technologies, building projects, and learning about artificial intelligence.</p>
+        </div>
+    </section>
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <h2>Skills</h2>
+        <div class="skills-list">
+            <div class="skill">HTML & CSS</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">Python</div>
+            <div class="skill">React.js</div>
+            <div class="skill">Node.js</div>
+            <div class="skill">UI/UX Design</div>
+            <div class="skill">Machine Learning</div>
+            <div class="skill">Data Analysis</div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <h2>Experience</h2>
+        <div class="experience-item">
+            <h3>Frontend Developer Intern</h3>
+            <p><strong>Company:</strong> Tech Innovators</p>
+            <p><strong>Duration:</strong> Jan 2023 - Jun 2023</p>
+            <p>Worked on building responsive web interfaces, improving user interactions, and optimizing web pages for better performance.</p>
+        </div>
+        <div class="experience-item">
+            <h3>Freelance Web Developer</h3>
+            <p><strong>Duration:</strong> 2022 - Present</p>
+            <p>Developed and designed websites for various clients, focusing on user experience, performance, and SEO best practices.</p>
+        </div>
+    </section>
+    <!-- Projects Section with Carousel -->
+    <section id="projects" class="projects">
+        <h2>My Projects</h2>
+        <div class="carousel">
+            <div class="carousel-item active">
+                <h3>Responsive Website Design</h3>
+                <p>Designed a responsive and modern website for a local business using HTML, CSS, and JavaScript.</p>
+            </div>
+            <div class="carousel-item">
+                <h3>Data Analysis Dashboard</h3>
+                <p>Created a dashboard for data analysis using Python and Power BI, providing insights on sales performance.</p>
+            </div>
+            <div class="carousel-item">
+                <h3>Mobile App Prototype</h3>
+                <p>Developed a mobile app prototype focused on user experience and easy navigation.</p>
+            </div>
+        </div>
+        <div class="carousel-controls">
+            <button id="prev">Previous</button>
+            <button id="next">Next</button>
+        </div>
+
+        <!-- Gallery Section -->
+        <div class="gallery">
+            <h3>Project Gallery</h3>
+            <div class="gallery-item">
+                <img src="project1.jpg" alt="Project 1">
+                <p>Project 1: Responsive Design</p>
+            </div>
+            <div class="gallery-item">
+                <img src="project2.jpg" alt="Project 2">
+                <p>Project 2: Data Dashboard</p>
+            </div>
+            <div class="gallery-item">
+                <img src="project3.jpg" alt="Project 3">
+                <p>Project 3: Mobile App UI</p>
+            </div>
+        </div>
+    </section>
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <h2>Testimonials</h2>
+        <div class="testimonial-card">
+            <p>"Salman is an exceptional developer with a keen eye for detail. His projects are always impressive!"</p>
+            <h4>- John Doe, Mentor</h4>
+        </div>
+        <div class="testimonial-card">
+            <p>"Working with Salman was a great experience. He’s professional and very talented!"</p>
+            <h4>- Jane Smith, Colleague</h4>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="faq">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq-item">
+            <h3>What services do you offer?</h3>
+            <p>I offer web development, app prototyping, data analysis, and more. Let me know your project needs!</p>
+        </div>
+        <div class="faq-item">
+            <h3>How can I contact you?</h3>
+            <p>You can contact me through the form below or email me at salmanhadi2005@gmail.com</p>
+        </div>
+    </section>
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <form action="#" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <input type="text" name="subject" placeholder="Subject" required>
+            <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Salman Hadi - All rights reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
